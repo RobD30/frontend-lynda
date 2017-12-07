@@ -21,7 +21,7 @@ For this challenge you’ll be planning and implementing a formatting strategy f
 4.	Determining emphasis
 	     a.	Applies to: next.htm
 	     b.	In the file next.htm examine the four pieces of advice in the Learning Web Design section. Determine how to best emphasize the first line in each paragraph. Think about ways that you could isolate that line or emphasize it in a way that denotes its importance to the rest of the paragraph.
-             c.	In the last advice paragraph (“break things”), display the quotes in italics. In the same paragraph, emphasize the last line “Always challenge yourself” so that it’s importance is indicated.
+         c.	In the last advice paragraph (“break things”), display the quotes in italics. In the same paragraph, emphasize the last line “Always challenge yourself” so that it’s importance is indicated.
 	     d.	In the list of resources below the advice section, make sure all top-level list items appear in bold.
 			
 5.	Displaying special characters
