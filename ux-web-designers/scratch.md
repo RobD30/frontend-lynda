@@ -16,4 +16,9 @@ Arranging content
 * Sequential
 * Split
 
-Test
+# Notes from UX Accessibility
+
+Actually refers to how a person with a disability interacts with your site.
+* Buttons are great for accessibility
+
+ 
