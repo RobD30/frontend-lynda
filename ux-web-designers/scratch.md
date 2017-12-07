@@ -20,5 +20,7 @@ Arranging content
 
 Actually refers to how a person with a disability interacts with your site.
 * Buttons are great for accessibility
-
- 
+* Radio buttons should come before search buttons
+* The search button can be considered the end of the page by some.
+* If things are closely related they should be grouped together.
+* 
