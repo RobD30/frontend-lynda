@@ -104,7 +104,9 @@ blockquote {
 }
 .flowRight {
 	margin-left: 10px;
+    float: right;
 }
 .flowLeft {
 	margin-right: 10px;
+    float: left;
 }
