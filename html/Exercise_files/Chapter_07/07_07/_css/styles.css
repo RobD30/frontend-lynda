@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgb(107, 107, 132);
 }
 body {
+	font-size: 1em;
+	font-family: Verdana, Verdana, Geneva, sans-serif;
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
