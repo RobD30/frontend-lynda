@@ -1,3 +1,43 @@
+/* Color Palete
+
+    #BFD7EA - Pale Aqua
+    #91AEC1 - Pewter Blue
+    #508CA4 - Rackley
+    #0A8754 - Spanish Green
+    #004F2D - British Racing Green
+
+*/
+
+
+/* Global Styles */
+
 body {
 
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/* Header and Footer */
+
+header, footer {
+    background: #91AEC1;
+    color: #004f2D;
+}
+
+header h1, header h2 {
+    color: #004f2D;
+}
+
+/* Work Experience */
+.work {
+    background: #BFD7EA;
+}
+/* Education */
+.education {
+    background: #BFD7EA;
 }
