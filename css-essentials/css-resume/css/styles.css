@@ -8,20 +8,32 @@
 
 */
 
-
 /* Global Styles */
 
 body {
-
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: red;
+    color: #004f2D;
 }
 
 a:hover {
     text-decoration: none;
 }
+
+h1, h2 {
+    font-family: 'Spectral SC', serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
 /* Header and Footer */
 
 header, footer {
@@ -37,6 +49,7 @@ header h1, header h2 {
 .work {
     background: #BFD7EA;
 }
+
 /* Education */
 .education {
     background: #BFD7EA;
