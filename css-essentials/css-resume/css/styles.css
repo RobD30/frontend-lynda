@@ -33,7 +33,6 @@ a:hover {
 h1, h2 {
     font-family: 'Spectral SC', serif;
     font-weight: 400;
-    margin: 0;
 }
 
 h1 {
@@ -61,9 +60,16 @@ h3 {
 .col-wide {
     width: 70%;
     float: left;
+    padding-left: 20px;
 }
 .uppercase {
     text-transform: uppercase;
+}
+.btn {
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Header and Footer */
@@ -75,15 +81,22 @@ header, footer {
 
 
 /* Header Styles */
+header {
+    padding-top: 50px;
+    position: relative;
+}
 header h1, header h2 {
     color: #BFD7EA;
 }
 .profile-img {
     border-radius: 50%;
 }
-header {
-    text-align: center;
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
 
 /* Footer Styles */
 
@@ -96,6 +109,10 @@ header {
 /* Navigation */
 nav {
     text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav a {
     display: inline-block;
