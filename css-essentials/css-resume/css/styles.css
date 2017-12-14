@@ -44,6 +44,9 @@ h2 {
     font-size: 40px;
     margin-top: 0;
 }
+h3 {
+    margin: 0;
+}
 
 .content-wrap {
     max-width: 950px;
@@ -54,12 +57,13 @@ h2 {
 .col-narrow {
     width: 30%;
     float: left;
-    min-height: 175px;
 }
 .col-wide {
     width: 70%;
     float: left;
-    min-height: 175px;
+}
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* Header and Footer */
@@ -89,12 +93,36 @@ header {
     display: inline-block;
 }
 
+/* Navigation */
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 /* Work Experience */
 .work {
     background: #91AEC1;
+}
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 10px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
 }
 
 /* Education */
 .education {
     background: #91AEC1;
+}
+p + h3 {
+    margin-top: 30px;
 }
