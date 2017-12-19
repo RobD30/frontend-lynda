@@ -1,12 +1,14 @@
-function logScope() {
-    var localVar = 2;
+var course = new Object();
 
-    if (localVar) {
-        let localVar = "I'm totally diff";
-        console.log('nested localVar: ', localVar);
+var course = {
+    title: 'Javascript Essentials',
+    instructor: 'Morty Mc Mort Mort',
+    level: 1,
+    published: true,
+    views: 1,
+    updateViews: function () {
+        return ++course.views;
     }
+};
 
-    console.log('logScope localVar: ', localVar);
-}
-
-logScope();
+console.log(course.title, course.instructor);
