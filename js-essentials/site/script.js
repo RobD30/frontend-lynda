@@ -1,19 +1,15 @@
-function giveMeEms(pixels) {
-    var baseValue = 16;
-
-    function doTheMath() {
-        return pixels/baseValue;
-    }
-
-    return doTheMath;
+function findBiggestFraction(a, b) {
+    var result;
+    a>b ? result = ['firstFraction', a] : result = ['secondFraction', b];
+    return result;
 }
 
-var smallSize = giveMeEms(12);
-var mediumSize = giveMeEms(18);
-var largeSize = giveMeEms(24);
-var xLargeSize = giveMeEms(32);
+var firstFraction = 3/4;
+var secondFraction = 5/7;
 
-console.log('Small size: ', smallSize());
-console.log('Medium size: ', mediumSize());
-console.log('Large size: ', largeSize());
-console.log('Extra Large size: ', xLargeSize());
+var fractionResult = findBiggestFraction(firstFraction, secondFraction);
+
+console.log('First fraction result: ', firstFraction);
+console.log('Second fraction result: ', secondFraction);
+console.log('Fraction ' + fractionResult[0] + ' with a value of ' + fractionResult[1] + 'is the' +
+    ' biggest');
