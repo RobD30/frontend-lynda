@@ -1,2 +1,5 @@
 .idea
 /bs3/Exercise Files
+/bs3/site/bootstrap/css/bootstrap.min.css
+/bs3/site/bootstrap/js/bootstrap.min.js
+/bs3/site/bootstrap/js/jquery-3.2.1.min.js
