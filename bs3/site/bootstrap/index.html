@@ -28,19 +28,28 @@
                 crucial milestones. We want to give your pet a long and healthy life.
             </p>
 
-            <button type="button"
-                    class="btn btn-info">Pet Type
-            </button>
+            <div class="dropdown">
+                <div class="btn-group">
+                    <button type="button" data-toggle="dropdown" id="pettype" aria-haspopup="true"
+                            aria-expanded="false" class="btn btn-info dropdown-toggle">Pet Type
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
 
-            <ul>
-                <li><a href="#">Cat</a></li>
-                <li><a href="#">Dog</a></li>
-                <li><a href="#">Fish</a></li>
-                <li><a href="#">Birds</a></li>
-                <li><a href="#">Amphibian</a></li>
-                <li><a href="#">Reptile</a></li>
-                <li><a href="#">Other</a></li>
-            </ul>
+                    <ul class="dropdown-menu" aria-labelledby="pettype">
+                        <li class="dropdown-header">Common</li>
+                        <li><a href="#">Cat</a></li>
+                        <li><a href="#">Dog</a></li>
+                        <li><a href="#">Fish</a></li>
+                        <li><a href="#">Birds</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Exotic</li>
+                        <li><a href="#">Amphibian</a></li>
+                        <li><a href="#">Reptile</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </div>
+            </div>
 
         </section>
     </div><!-- row -->
